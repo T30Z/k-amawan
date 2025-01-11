@@ -43,4 +43,4 @@ Contributions are welcome! This project is open to growth, so if you have sugges
 
 ## Contact
 
-For questions, feedback, or collaboration inquiries, please contact [teozamudio@protonmail.com](mailto:teozamudio@protonmail.com).
+For questions, feedback, or collaboration inquiries, feel free to message me here.
