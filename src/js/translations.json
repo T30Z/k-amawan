@@ -1,0 +1,119 @@
+{
+  "en": {
+    "header": {
+      "title": "Device for Calculation"
+    },
+    "footer": {
+      "link": "Write a Number"
+    },
+    "about": "<p>About Mayan Numbers</p><p>The Mayan number system is a vigesimal (base-20) numeral system, which is distinct from the decimal (base-10) system we use today. The Mayans used a combination of dots and bars to represent numbers, where a dot represents one and a bar represents five. Numbers were written vertically, with the lowest values at the bottom and higher values above.</p><p>Each level in the vertical arrangement represents an increasing power of 20, similar to how each place in our decimal system represents an increasing power of 10. For example:</p><ul><li>The first level (bottom) represents units (1 to 19).</li><li>The second level represents multiples of 20 (20, 40, 60, etc.).</li><li>The third level represents multiples of 400 (20²), and so on.</li></ul><p>There is also a special symbol for zero, which looks like a shell. This allowed the Mayans to perform arithmetic operations and keep track of large numbers effectively.</p><p>In our conversion tool, you can input regular numbers, and it will translate them into their corresponding Mayan numeral representation. This helps to appreciate the unique and sophisticated system developed by the ancient Mayans.</p>"
+  },
+  "es": {
+    "header": {
+      "title": "Dispositivo para Cálculo"
+    },
+    "footer": {
+      "link": "Escribe un Número"
+    },
+    "about": "<p>Números Mayas</p><p>El sistema numérico maya es un sistema vigesimal (base 20), que se distingue del sistema decimal (base 10) que usamos hoy. Los mayas usaban una combinación de puntos y barras para representar números, donde un punto representa uno y una barra representa cinco. Los números se escribían verticalmente, con los valores más bajos en la parte inferior y los valores más altos arriba.</p><p>Cada nivel en la disposición vertical representa una potencia creciente de 20, similar a cómo cada lugar en nuestro sistema decimal representa una potencia creciente de 10. Por ejemplo:</p><ul><li>El primer nivel (inferior) representa unidades (1 a 19).</li><li>El segundo nivel representa múltiplos de 20 (20, 40, 60, etc.).</li><li>El tercer nivel representa múltiplos de 400 (20²), y así sucesivamente.</li></ul><p>También hay un símbolo especial para cero, que parece una concha. Esto permitió a los mayas realizar operaciones aritméticas y llevar un registro de grandes números de manera efectiva.</p><p>En nuestra herramienta de conversión, puedes ingresar números regulares y se traducirán a su representación numérica maya correspondiente. Esto ayuda a apreciar el sistema único y sofisticado desarrollado por los antiguos mayas.</p>"
+  },
+  "fr": {
+    "header": {
+      "title": "Dispositif de Calcul"
+    },
+    "footer": {
+      "link": "Écrivez un Nombre"
+    },
+    "about": "<p>À propos des Nombres Mayas</p><p>Le système de numération maya est un système vigésimal (base 20), qui se distingue du système décimal (base 10) que nous utilisons aujourd'hui. Les Mayas utilisaient une combinaison de points et de barres pour représenter les nombres, un point représentant un et une barre représentant cinq. Les nombres étaient écrits verticalement, avec les valeurs les plus basses en bas et les valeurs les plus élevées en haut.</p><p>Chaque niveau dans la disposition verticale représente une puissance croissante de 20, similaire à la façon dont chaque place dans notre système décimal représente une puissance croissante de 10. Par exemple:</p><ul><li>Le premier niveau (en bas) représente les unités (1 à 19).</li><li>Le deuxième niveau représente les multiples de 20 (20, 40, 60, etc.).</li><li>Le troisième niveau représente les multiples de 400 (20²), et ainsi de suite.</li></ul><p>Il y a aussi un symbole spécial pour zéro, qui ressemble à une coquille. Cela a permis aux Mayas d'effectuer des opérations arithmétiques et de suivre de grands nombres de manière efficace.</p><p>Dans notre outil de conversion, vous pouvez entrer des nombres ordinaires, et ils seront traduits en leur représentation numérique maya correspondante. Cela permet d'apprécier le système unique et sophistiqué développé par les anciens Mayas.</p>"
+  },
+  "de": {
+    "header": {
+      "title": "Berechnungsgerät"
+    },
+    "footer": {
+      "link": "Schreiben Sie eine Zahl"
+    },
+    "about": "<p>Über die Mayazahlen</p><p>Das Maya-Zahlensystem ist ein vigesimales (basis-20) Zahlensystem, das sich von dem dezimalen (basis-10) System unterscheidet, das wir heute verwenden. Die Mayas verwendeten eine Kombination aus Punkten und Strichen, um Zahlen darzustellen, wobei ein Punkt eins und ein Strich fünf darstellt. Die Zahlen wurden vertikal geschrieben, mit den niedrigsten Werten unten und den höheren Werten oben.</p><p>Jede Ebene in der vertikalen Anordnung stellt eine zunehmende Potenz von 20 dar, ähnlich wie jede Stelle in unserem Dezimalsystem eine zunehmende Potenz von 10 darstellt. Zum Beispiel:</p><ul><li>Die erste Ebene (unten) stellt Einheiten (1 bis 19) dar.</li><li>Die zweite Ebene stellt Vielfache von 20 (20, 40, 60 usw.) dar.</li><li>Die dritte Ebene stellt Vielfache von 400 (20²) dar, und so weiter.</li></ul><p>Es gibt auch ein spezielles Symbol für Null, das wie eine Muschel aussieht. Dies ermöglichte es den Mayas, Rechenoperationen durchzuführen und große Zahlen effektiv zu verfolgen.</p><p>In unserem Konverter-Tool können Sie normale Zahlen eingeben, und sie werden in ihre entsprechende Maya-Zahlen-Darstellung übersetzt. Dies hilft, das einzigartige und ausgeklügelte System zu schätzen, das von den alten Mayas entwickelt wurde.</p>"
+  },
+  "it": {
+    "header": {
+      "title": "Dispositivo di Calcolo"
+    },
+    "footer": {
+      "link": "Scrivi un Numero"
+    },
+    "about": "<p>Informazioni sui Numeri Maya</p><p>Il sistema di numerazione Maya è un sistema vigesimale (base 20), che è distinto dal sistema decimale (base 10) che usiamo oggi. I Maya usavano una combinazione di punti e barre per rappresentare i numeri, dove un punto rappresenta uno e una barra rappresenta cinque. I numeri erano scritti verticalmente, con i valori più bassi in basso e i valori più alti in alto.</p><p>Ogni livello nella disposizione verticale rappresenta una potenza crescente di 20, simile a come ogni posto nel nostro sistema decimale rappresenta una potenza crescente di 10. Ad esempio:</p><ul><li>Il primo livello (inferiore) rappresenta le unità (da 1 a 19).</li><li>Il secondo livello rappresenta i multipli di 20 (20, 40, 60, ecc.).</li><li>Il terzo livello rappresenta i multipli di 400 (20²), e così via.</li></ul><p>C'è anche un simbolo speciale per lo zero, che sembra una conchiglia. Questo ha permesso ai Maya di eseguire operazioni aritmetiche e tenere traccia di numeri grandi in modo efficace.</p><p>Nel nostro strumento di conversione, puoi inserire numeri regolari e verranno tradotti nella loro rappresentazione numerica Maya corrispondente. Questo aiuta ad apprezzare il sistema unico e sofisticato sviluppato dagli antichi Maya.</p>"
+  },
+  "pt": {
+    "header": {
+      "title": "Dispositivo de Cálculo"
+    },
+    "footer": {
+      "link": "Escreva um Número"
+    },
+    "about": "<p>Sobre os Números Maias</p><p>O sistema numérico maia é um sistema vigesimal (base 20), que é distinto do sistema decimal (base 10) que usamos hoje. Os maias usavam uma combinação de pontos e barras para representar números, onde um ponto representa um e uma barra representa cinco. Os números eram escritos verticalmente, com os valores mais baixos na parte inferior e os valores mais altos acima.</p><p>Cada nível na disposição vertical representa uma potência crescente de 20, semelhante a como cada posição no nosso sistema decimal representa uma potência crescente de 10. Por exemplo:</p><ul><li>O primeiro nível (inferior) representa unidades (1 a 19).</li><li>O segundo nível representa múltiplos de 20 (20, 40, 60, etc.).</li><li>O terceiro nível representa múltiplos de 400 (20²), e assim por diante.</li></ul><p>Há também um símbolo especial para zero, que parece uma concha. Isso permitiu que os maias realizassem operações aritméticas e mantivessem o controle de grandes números de maneira eficaz.</p><p>Na nossa ferramenta de conversão, você pode inserir números normais e eles serão traduzidos na sua representação numérica maia correspondente. Isso ajuda a apreciar o sistema único e sofisticado desenvolvido pelos antigos maias.</p>"
+  },
+  "ru": {
+    "header": {
+      "title": "Устройство для Вычислений"
+    },
+    "footer": {
+      "link": "Напишите Число"
+    },
+    "about": "<p>О Майянских Числах</p><p>Майянская числовая система является двадцатеричной (основанной на 20) системой, которая отличается от десятичной (основанной на 10) системы, которую мы используем сегодня. Майя использовали комбинацию точек и полос для представления чисел, где точка обозначает один, а полоса обозначает пять. Числа писались вертикально, с наименьшими значениями внизу и большими значениями сверху.</p><p>Каждый уровень в вертикальной расстановке представляет собой возрастающую степень 20, аналогично тому, как каждая позиция в нашей десятичной системе представляет собой возрастающую степень 10. Например:</p><ul><li>Первый уровень (нижний) представляет единицы (от 1 до 19).</li><li>Второй уровень представляет собой кратные 20 (20, 40, 60 и т. д.).</li><li>Третий уровень представляет собой кратные 400 (20²) и так далее.</li></ul><p>Существует также специальный символ для нуля, который выглядит как раковина. Это позволило майя выполнять арифметические операции и эффективно учитывать большие числа.</p><p>В нашем инструменте конвертации вы можете ввести обычные числа, и они будут переведены в соответствующее майянское числовое представление. Это помогает оценить уникальную и сложную систему, разработанную древними майя.</p>"
+  },
+  "zh": {
+    "header": {
+      "title": "计算设备"
+    },
+    "footer": {
+      "link": "写一个数字"
+    },
+    "about": "<p>关于玛雅数字</p><p>玛雅数字系统是一个二十进制（以 20 为基数）的数字系统，它与我们今天使用的十进制（以 10 为基数）系统不同。玛雅人使用点和条的组合来表示数字，其中一个点表示一，一个条表示五。数字是竖直书写的，最低的值在底部，较高的值在上面。</p><p>垂直排列中的每个级别表示 20 的递增次方，类似于我们十进制系统中的每个位置表示 10 的递增次方。例如：</p><ul><li>第一级（底部）表示单位（1 到 19）。</li><li>第二级表示 20 的倍数（20, 40, 60 等）。</li><li>第三级表示 400 的倍数（20²），依此类推。</li></ul><p>还有一个代表零的特殊符号，看起来像一个贝壳。这使得玛雅人能够有效地进行算术运算并记录大数字。</p><p>在我们的转换工具中，您可以输入常规数字，它会将其转换为相应的玛雅数字表示。这有助于欣赏古代玛雅人开发的独特而复杂的系统。</p>"
+  },
+  "ja": {
+    "header": {
+      "title": "計算装置"
+    },
+    "footer": {
+      "link": "数字を書く"
+    },
+    "about": "<p>マヤ数字について</p><p>マヤの数字システムは、今日私たちが使用している十進法（基数10）のシステムとは異なる二十進法（基数20）の数字システムです。マヤ人は、点と棒の組み合わせを使用して数字を表し、点は1を表し、棒は5を表します。数字は縦に書かれ、最も低い値が下にあり、最も高い値が上にあります。</p><p>縦方向の配置では、各レベルは20の累乗を表し、私たちの十進法システムでは各桁が10の累乗を表すのと同様です。例えば：</p><ul><li>最初のレベル（下）は単位（1から19）を表します。</li><li>第二のレベルは20の倍数（20, 40, 60など）を表します。</li><li>第三のレベルは400（20²）の倍数を表し、さらに続きます。</li></ul><p>また、貝殻のように見える特別なゼロのシンボルもあります。これにより、マヤ人は算術操作を実行し、大きな数字を効果的に管理できました。</p><p>私たちの変換ツールでは、通常の数字を入力すると、それが対応するマヤの数字表現に変換されます。これは、古代マヤ人によって開発された独自で高度なシステムを評価するのに役立ちます。</p>"
+  },
+  "ko": {
+    "header": {
+      "title": "계산 장치"
+    },
+    "footer": {
+      "link": "숫자를 쓰십시오"
+    },
+    "about": "<p>마야 숫자에 대해</p><p>마야 숫자 체계는 오늘날 우리가 사용하는 십진법(10진법)과는 다른 이십진법(20진법) 숫자 체계입니다. 마야인은 점과 막대의 조합을 사용하여 숫자를 나타내었으며, 점은 1을 나타내고 막대는 5를 나타냅니다. 숫자는 수직으로 작성되며, 가장 낮은 값은 아래에 있고 더 높은 값은 위에 있습니다.</p><p>수직 배열의 각 수준은 20의 제곱수를 나타내며, 이는 우리 십진법 시스템에서 각 자리가 10의 제곱수를 나타내는 것과 유사합니다. 예를 들어:</p><ul><li>첫 번째 수준(아래)은 단위(1에서 19까지)를 나타냅니다.</li><li>두 번째 수준은 20의 배수(20, 40, 60 등)를 나타냅니다.</li><li>세 번째 수준은 400(20²) 배수를 나타내며 계속됩니다.</li></ul><p>또한 껍질처럼 보이는 특별한 0의 기호도 있습니다. 이를 통해 마야인은 산술 연산을 수행하고 큰 숫자를 효과적으로 관리할 수 있었습니다.</p><p>변환 도구에서 일반 숫자를 입력하면 해당하는 마야 숫자 표기로 변환됩니다. 이는 고대 마야인이 개발한 독특하고 정교한 시스템을 이해하는 데 도움이 됩니다.</p>"
+  },
+  "ar": {
+    "header": {
+      "title": "جهاز الحساب"
+    },
+    "footer": {
+      "link": "اكتب رقمًا"
+    },
+    "about": "<p>حول الأرقام المايا</p><p>النظام الرقمي للمايا هو نظام عددي عشري (أساس 20) ، وهو يختلف عن النظام العشري (أساس 10) الذي نستخدمه اليوم. استخدم المايا مزيجًا من النقاط والأشرطة لتمثيل الأرقام ، حيث تمثل النقطة واحدة ويمثل الشريط خمسة. كانت الأرقام مكتوبة عموديًا ، مع أدنى القيم في الأسفل وأعلى القيم في الأعلى.</p><p>يمثل كل مستوى في الترتيب الرأسي قوة متزايدة قدرها 20 ، على غرار الطريقة التي يمثل بها كل مكان في نظامنا العشري قوة متزايدة قدرها 10. على سبيل المثال:</p><ul><li>يمثل المستوى الأول (الأسفل) الوحدات (1 إلى 19).</li><li>يمثل المستوى الثاني مضاعفات 20 (20 ، 40 ، 60 ، إلخ).</li><li>يمثل المستوى الثالث مضاعفات 400 (20²) ، وهكذا دواليك.</li></ul><p>يوجد أيضًا رمز خاص للصفر يشبه الصدفة. سمح هذا للمايا بإجراء العمليات الحسابية وتتبع الأعداد الكبيرة بفعالية.</p><p>في أداة التحويل الخاصة بنا ، يمكنك إدخال الأرقام العادية وسيتم تحويلها إلى التمثيل الرقمي للمايا المقابل. يساعد هذا في تقدير النظام الفريد والمتطور الذي طوره المايا القدماء.</p>"
+  },
+  "hi": {
+    "header": {
+      "title": "गणना के लिए उपकरण"
+    },
+    "footer": {
+      "link": "एक संख्या लिखें"
+    },
+    "about": "<p>माया संख्याएँ के बारे में</p><p>माया संख्या प्रणाली एक बीस आधार (बीस-मूल) संख्या प्रणाली है, जो आज हम जिस दशमलव (दस-मूल) प्रणाली का उपयोग करते हैं, उससे अलग है। माया लोगों ने बिंदुओं और सलाखों का संयोजन करके संख्याओं का प्रतिनिधित्व किया, जिसमें एक बिंदु एक को दर्शाता है और एक बार पांच को दर्शाता है। संख्याएं ऊर्ध्वाधर रूप में लिखी जाती थीं, जिसमें सबसे निचले मूल्य नीचे होते थे और ऊपरी मूल्य ऊपर होते थे।</p><p>ऊर्ध्वाधर व्यवस्था में प्रत्येक स्तर 20 की बढ़ती शक्ति का प्रतिनिधित्व करता है, जैसे कि हमारी दशमलव प्रणाली में प्रत्येक स्थान 10 की बढ़ती शक्ति का प्रतिनिधित्व करता है। उदाहरण के लिए:</p><ul><li>पहला स्तर (नीचे) इकाइयों का प्रतिनिधित्व करता है (1 से 19)।</li><li>दूसरा स्तर 20 के गुणकों का प्रतिनिधित्व करता है (20, 40, 60, आदि)।</li><li>तीसरा स्तर 400 (20²) के गुणकों का प्रतिनिधित्व करता है, और इसी तरह आगे।</li></ul><p>शून्य के लिए एक विशेष प्रतीक भी है, जो शंख जैसा दिखता है। इसने माया लोगों को अंकगणितीय संचालन करने और बड़ी संख्याओं को प्रभावी ढंग से ट्रैक करने की अनुमति दी।</p><p>हमारे रूपांतरण उपकरण में, आप नियमित संख्याएँ दर्ज कर सकते हैं, और वे उनके संबंधित माया अंक प्रतिनिधित्व में परिवर्तित हो जाएंगी। इससे प्राचीन माया लोगों द्वारा विकसित अद्वितीय और परिष्कृत प्रणाली की सराहना की जा सकती है।</p>"
+  },
+  "tr": {
+    "header": {
+      "title": "Hesaplama Cihazı"
+    },
+    "footer": {
+      "link": "Bir Sayı Yazın"
+    },
+    "about": "<p>Maya Sayıları Hakkında</p><p>Maya sayı sistemi, bugün kullandığımız ondalık (taban 10) sistemden farklı olan yirmili (taban 20) bir sayı sistemidir. Mayalar, sayıları temsil etmek için bir noktanın biri ve bir çubuğun beşi temsil ettiği bir nokta ve çubuk kombinasyonu kullandılar. Sayılar, en düşük değerler aşağıda ve daha yüksek değerler yukarıda olacak şekilde dikey olarak yazılmıştır.</p><p>Dikey düzenlemede her seviye, tıpkı ondalık sistemimizdeki her basamağın 10'un artan bir kuvvetini temsil etmesi gibi, 20'nin artan bir kuvvetini temsil eder. Örneğin:</p><ul><li>İlk seviye (alt) birimleri (1 ila 19) temsil eder.</li><li>İkinci seviye, 20'nin katlarını (20, 40, 60, vb.) temsil eder.</li><li>Üçüncü seviye, 400 (20²) katlarını temsil eder ve bu böyle devam eder.</li></ul><p>Sıfır için de kabuk gibi görünen özel bir sembol vardır. Bu, Mayaların aritmetik işlemleri gerçekleştirmesine ve büyük sayıları etkin bir şekilde takip etmesine olanak tanıdı.</p><p>Dönüştürme aracımızda normal sayıları girebilir ve bunlar ilgili Maya sayısal temsilime dönüştürülebilir. Bu, antik Mayalar tarafından geliştirilen benzersiz ve sofistike sistemi takdir etmeye yardımcı olur.</p>"
+  }
+}

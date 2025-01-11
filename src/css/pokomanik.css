@@ -1,0 +1,315 @@
+body, html {
+    background-color: #000;
+    margin: 0;
+    color: white;
+    font-family: 'IBM Plex Mono';
+    font-size: 16px;
+    padding: 0;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale; 
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: 'IBM Plex Mono light';
+    src: url('../fonts/IBMPlexMono-Light.woff2') format('woff2'),
+        url('../fonts/IBMPlexMono-Light.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url('../fonts/IBMPlexMono-Regular.woff2') format('woff2'),
+        url('../fonts/IBMPlexMono-Regular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Mayan Numerals';
+    src: url('../fonts/NotoSansMayanNumerals-Regular.woff2') format('woff2'),
+        url('../fonts/NotoSansMayanNumerals-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    text-transform: uppercase;
+    font-weight: 100;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0;
+    z-index: 1;
+}
+
+header h4, footer h4 {
+    margin: 0;
+}
+header img {
+    max-width: 20px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    text-transform: uppercase;
+    font-weight: 100;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.info {
+    position: fixed;
+    box-sizing: border-box;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    z-index: 10;
+}
+.info.close {
+    display: none;
+}
+.ascii-art {
+    font-size: .890vw;
+    font-family: 'IBM Plex Mono';
+}
+pre{
+    margin: 0;
+    padding: 0;
+}
+.about-wrapper {
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    height: 100vh;
+    font-size: 1rem;
+}
+#about p:first-child {
+    padding-top: 0;
+    margin-top: 0;
+}
+#close {
+    cursor: pointer;
+}
+#close:hover {
+    text-decoration: underline;
+}
+
+
+/* Game of Ball */
+.arena {
+    width: 100%;
+    height: 100vh;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.court {
+    position: relative;
+    width: 100%;
+    height: 100svh;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.horizontal-line, .vertical-line {
+    position: absolute;
+    background-color: white;
+}
+
+.horizontal-line {
+    height: 1px;
+    width: 80%;
+    left: 10%;
+}
+
+.top-horizontal {
+    top: 20%;
+}
+
+.bottom-horizontal {
+    bottom: 20%;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 60%;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.celestial-ring-top {
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.celestial-ring-bottom {
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.player {
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.twin {
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.deity {
+    height: 60px;
+    right: 0;
+}
+
+.ball {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+/* Strobe */
+
+@keyframes strobe {
+    0%, 100% {
+        background-color: rgba(255, 255, 255, 0);
+    }
+    50% {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+}
+
+.strobe-left, .strobe-right {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0);
+    pointer-events: none;
+    z-index: 5;
+}
+
+.strobe-left {
+    left: 0;
+}
+
+.strobe-right {
+    right: 0;
+}
+
+.strobe-active {
+    animation: strobe 0.1s ease-out 5;
+}
+button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+button img {
+    margin-bottom: 10px;
+    transition: all .25s ease-in-out;
+}
+button:hover img {
+    transform: scale(1.2);
+}
+button img {
+    max-width: 60px;
+}
+.info {
+    transition: opacity 0.3s ease;
+}
+
+.info[style*="display: none;"] {
+    opacity: 0;
+}
+@media (max-width: 800px) {
+    
+    .twin {
+        height: 40px;
+    }
+    
+    .deity {
+        height: 40px;
+    }
+    .circle {
+        width: 40px;
+        height: 40px;
+    }
+    header, footer {
+        font-size: 12px;
+    }
+    header h4:last-child {
+        text-align: right;
+    }
+    .info { 
+        grid-template-columns: 1fr 5fr;
+    }
+    .ascii-art {
+        font-size: .4vw;
+    }
+    #close {
+        text-align: right;
+    }
+    .twins {
+        padding-bottom: 180px;
+    }
+    
+  }
