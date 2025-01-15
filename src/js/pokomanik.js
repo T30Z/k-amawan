@@ -11,7 +11,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const bottomCircle = document.querySelector('.celestial-ring-bottom');
     const leftScoreElement = document.getElementById('left-score');
     const rightScoreElement = document.getElementById('right-score');
-    const twinPlayingHeader = document.getElementById('twin-playing'); // New reference
+    const twinPlayingHeader = document.getElementById('twin-playing');
+    // Added for deity label updates:
+    const deityPlayingHeader = document.getElementById('deity-playing'); 
 
     // Constants
     const ballSpeed = 4;
@@ -75,6 +77,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return distance < (radius + ball.clientWidth / 2);
         }
 
+        // If ball collides with top circle => Right scores
         if (isCollision(topCircle)) {
             rightScore++;
             updateScore();
@@ -87,12 +90,17 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
 
+        // If ball collides with bottom circle => Left scores
         if (isCollision(bottomCircle)) {
             leftScore++;
             updateScore();
             triggerStrobe('left');
             if (leftScore >= winningScore) {
                 alert("You win with 13 points!");
+                // Switch from Xibalba to SOTX NA
+                rightPlayerElem.src = "img/sotx-na.svg";
+                deityPlayingHeader.textContent = "SOTX NA";
+
                 resetGame();
             } else {
                 resetBall();
@@ -113,24 +121,32 @@ document.addEventListener('DOMContentLoaded', function () {
         ballX += ballDirectionX;
         ballY += ballDirectionY;
 
+        // Bounce off top/bottom walls
         if (ballY <= 0 || ballY >= court.clientHeight - ball.clientHeight) {
             ballDirectionY *= -1;
         }
 
-        if (ballX <= leftPlayerElem.clientWidth &&
+        // Check left paddle collision
+        if (
+            ballX <= leftPlayerElem.clientWidth &&
             ballY + ball.clientHeight >= leftPlayerY &&
-            ballY <= leftPlayerY + leftPlayerElem.clientHeight) {
+            ballY <= leftPlayerY + leftPlayerElem.clientHeight
+        ) {
             ballDirectionX *= -1;
             ballX = leftPlayerElem.clientWidth;
         }
 
-        if (ballX >= court.clientWidth - rightPlayerElem.clientWidth - ball.clientWidth &&
+        // Check right paddle collision
+        if (
+            ballX >= court.clientWidth - rightPlayerElem.clientWidth - ball.clientWidth &&
             ballY + ball.clientHeight >= rightPlayerY &&
-            ballY <= rightPlayerY + rightPlayerElem.clientHeight) {
+            ballY <= rightPlayerY + rightPlayerElem.clientHeight
+        ) {
             ballDirectionX *= -1;
             ballX = court.clientWidth - rightPlayerElem.clientWidth - ball.clientWidth;
         }
 
+        // If ball goes off the left side => Right scores
         if (ballX < 0) {
             rightScore++;
             updateScore();
@@ -143,41 +159,56 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
 
+        // If ball goes off the right side => Left scores
         if (ballX > court.clientWidth - ball.clientWidth) {
             leftScore++;
             updateScore();
             triggerStrobe('left');
             if (leftScore >= winningScore) {
-                alert("Left player wins with 13 points!");
+                alert("You win with 13 points!");
+                // Switch from Xibalba to SOTX NA
+                rightPlayerElem.src = "img/sotx-na.svg";
+                deityPlayingHeader.textContent = "SOTX NA";
+
                 resetGame();
             } else {
                 resetBall();
             }
         }
 
+        // Check ring collisions
         checkCircleCollision();
 
+        // Update ball DOM position
         ball.style.left = ballX + 'px';
         ball.style.top = ballY + 'px';
     }
 
     // Function to move left player
     function moveLeftPlayer(yPosition) {
-        leftPlayerY = Math.max(0, Math.min(court.clientHeight - leftPlayerElem.clientHeight, yPosition));
+        leftPlayerY = Math.max(
+            0,
+            Math.min(court.clientHeight - leftPlayerElem.clientHeight, yPosition)
+        );
         leftPlayerElem.style.top = leftPlayerY + 'px';
     }
 
-    // Function to move right player
+    // Function to move right player (AI)
     function moveRightPlayer() {
         const ballSpeed = Math.sqrt(ballDirectionX * ballDirectionX + ballDirectionY * ballDirectionY);
         const playerSpeed = ballSpeed;
 
+        // Predict where the ball will be, roughly
         const predictedBallY = ballY + (ballDirectionY * difficulty.reactionTime / 1000) * 60;
         const centerPlayer = rightPlayerY + rightPlayerElem.clientHeight / 2;
 
+        // Only move if the predicted position is beyond the AI’s "error margin"
         if (Math.abs(centerPlayer - predictedBallY) > difficulty.errorMargin) {
             if (centerPlayer < predictedBallY) {
-                rightPlayerY = Math.min(court.clientHeight - rightPlayerElem.clientHeight, rightPlayerY + playerSpeed);
+                rightPlayerY = Math.min(
+                    court.clientHeight - rightPlayerElem.clientHeight,
+                    rightPlayerY + playerSpeed
+                );
             } else if (centerPlayer > predictedBallY) {
                 rightPlayerY = Math.max(0, rightPlayerY - playerSpeed);
             }
@@ -199,7 +230,7 @@ document.addEventListener('DOMContentLoaded', function () {
         leftPlayer.src = 'img/hunahpu.svg';
         selectedTwinDiv.innerText = 'You selected Hunahpu';
         infoDiv.style.display = 'none';
-        twinPlayingHeader.textContent = 'Hunahpu'; // Update header
+        twinPlayingHeader.textContent = 'Hunahpu';
         startGame(); // Start the game after selection
     });
 
@@ -207,10 +238,11 @@ document.addEventListener('DOMContentLoaded', function () {
         leftPlayer.src = 'img/xbalanque.svg';
         selectedTwinDiv.innerText = 'You selected Xbalanque';
         infoDiv.style.display = 'none';
-        twinPlayingHeader.textContent = 'Xbalanque'; // Update header
+        twinPlayingHeader.textContent = 'Xbalanque';
         startGame(); // Start the game after selection
     });
 
+    // Mouse movement control for the left player
     document.addEventListener('mousemove', function (event) {
         if (gameStarted) {
             const rect = court.getBoundingClientRect();
@@ -219,6 +251,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
+    // Touch control for the left player
     document.addEventListener('touchstart', function (event) {
         if (gameStarted && event.target.closest('.court')) {
             initialTouchY = event.touches[0].clientY;
